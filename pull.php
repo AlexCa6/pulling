@@ -1,7 +1,7 @@
 <?php
 
   $persona = [
-                "nombre" => "Pedro" 
+                "nombre" => "Pedro", 
                 "edad" => 50
               ];
               
@@ -9,3 +9,14 @@
                 echo "$valor <br>";
               }
 ?>              
+
+
+$auto = [
+                "marca" => "Ford", 
+                "modelo" => "Focus"
+              ];
+              
+              foreach($auto as $posicion => $valor){
+                echo "$posicion: $valor <br>";
+              }
+?>  
